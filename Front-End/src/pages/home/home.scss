@@ -1,0 +1,42 @@
+// Header.scss
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: black;
+  background-color: #f0f0f0; 
+
+  .logo-container {
+    margin-right: 10px;
+  }
+
+  .logo {
+    width: 50px; 
+    height: auto;
+  }
+
+  .blog-container {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .blog-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .img-container {
+    margin-left: 10px;
+    display: flex ;
+    .username{
+      display: flex;
+      align-items: center ;
+    }
+  }
+
+  .header-img {
+    width: 50px;
+    height: auto;
+  }
+}
